@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TR Arts</title>
+  <title>Portofolio Saya</title>
   <style>
     body {
       font-family: Arial;
@@ -15,8 +15,8 @@
 </head>
 <body>
 
-  <h1>Hello, I'm Taufiq</h1>
-  <p>Welcome to my portofolio</p>
+  <h1>Halo, saya Taufiq 👋</h1>
+  <p>Selamat datang di website portofolio saya</p>
 
   <h2>Project Saya</h2>
   <p>Coming soon...</p>

@@ -1,25 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Portofolio Saya</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bintang Pelajar - Portofolio</title>
   <style>
     body {
-      font-family: Arial;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
     }
-    h1 {
-      color: #2c3e50;
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Halo, saya Taufiq 👋</h1>
-  <p>Selamat datang di website portofolio saya</p>
+<header>
+  <h1>Bintang Pelajar</h1>
+  <p>Website Edukasi & Portofolio</p>
+</header>
 
-  <h2>Project Saya</h2>
-  <p>Coming soon...</p>
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">Tentang</a>
+  <a href="#program">Program</a>
+  <a href="#contact">Kontak</a>
+</nav>
+
+<section class="hero">
+  <h1>Selamat Datang 👋</h1>
+  <p>Kami menyediakan program pendidikan terbaik untuk masa depan cerah.</p>
+</section>
+
+<section class="section" id="about">
+  <h2>Tentang Kami</h2>
+  <p>Kami adalah lembaga pendidikan yang berfokus pada pengembangan akademik dan karakter siswa.</p>
+</section>
+
+<section class="section" id="program">
+  <h2>Program Kami</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Bimbel TKA</h3>
+      <p>Persiapan ujian dengan metode terbaik.</p>
+    </div>
+    <div class="card">
+      <h3>Bahasa Inggris</h3>
+      <p>Program belajar bahasa Inggris praktis.</p>
+    </div>
+    <div class="card">
+      <h3>Pengembangan Karakter</h3>
+      <p>Membentuk pribadi yang disiplin dan mandiri.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Kontak</h2>
+  <p>Email: info@bintangpelajar.com</p>
+  <p>WhatsApp: 08xxxxxxxxxx</p>
+</section>
+
+<footer>
+  <p>© 2026 Bintang Pelajar</p>
+</footer>
 
 </body>
 </html>
